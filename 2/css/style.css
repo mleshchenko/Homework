@@ -7,7 +7,10 @@
 .container {
     width: 1280px;
     margin: 0 auto;
-    padding: 60px 100px 0;
+}
+
+header {
+    margin: 40px 0;
 }
 
 .logo-link {
@@ -18,7 +21,6 @@
     text-decoration: none;
     text-transform: capitalize;
     color: black;
-    margin-bottom: 40px;
     display: inline-block;
 }
 
@@ -63,6 +65,7 @@
     text-align: left;
     border: #696969 solid 2px;
     box-sizing: border-box;
+    width: 340px;
 }
 
 .side-menu-link {
@@ -73,7 +76,6 @@
     text-decoration: none;
     text-transform: capitalize;
     color: black;
-    width: 300px;
     padding: 27px 0px 27px 40px;
     display: block;
 }
