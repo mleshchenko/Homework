@@ -1,0 +1,229 @@
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    height: 768px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("../img/background 1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.header {
+    margin: 50px 160px 30px 180px;
+    width: 1026px;
+}
+
+.header-logo {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    height: 50px;
+    width: 160px;
+}
+
+.header-logo:hover>.logo-picture-white {
+    height: 0;
+}
+
+.header-logo:hover>.logo-picture-orange {
+    height: auto;
+}
+
+.header-logo:hover> .logo-milan {
+    color: #F26522;
+}
+
+.logo-picture-white {
+    position: absolute;
+    overflow: hidden;
+}
+
+.logo-picture-orange {
+    position: absolute;
+    overflow: hidden;
+    height: 0;
+}
+
+.logo-milan {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 60px;
+    color: white;
+    margin-top: 1px;
+}
+
+.logo-holidays {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 2px;
+}
+
+.contacts {
+    float: right;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: white;
+    text-align: right;
+    display: inline-block;
+}
+
+.phone {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.email:hover {
+    color: #F26522;
+}
+.phone:hover {
+    color: #F26522;
+}
+
+.gallery {
+    margin-left: 180px;
+    margin-right: 98px;
+}
+
+.gallery-item {
+    width: 300px;
+    height: 258px;
+    float: left;
+    margin-right: 62px;
+    margin-bottom: 40px;
+    border: none;
+    position: relative;
+    text-align: center;
+}
+
+.gallery-picture-gradient-background {
+    width: 300px;
+    height: 228px;
+    background-image: linear-gradient(white, black);
+    border: none;
+    position: relative;
+}
+
+.gallery-picture {
+    width: 98%;
+    height: 98%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.clip-path{
+    clip-path: inset(2px 2px 2px 2px);
+}
+
+.pop-up {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 4px;
+    margin: auto;
+    background-color: #F26522;
+    color: white;
+    width: 96.8%;
+    height: 0px;
+    overflow: hidden;
+    transition: 200ms;
+}
+
+.gallery-picture-gradient-background:hover>.pop-up {
+    height: 60px;
+}
+
+.price {
+    float: left;
+    margin-left: 16px;
+    margin-top: 6px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 21px;
+}
+
+.price-figure {
+    margin-top: 2px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
+}
+
+.view-details-wrapper{
+    position: relative;
+    float: right;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.view-details {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    padding-right: 3em;
+    text-decoration: none;
+}
+
+.view-details::after {
+    content: url("../img/Vector 1.png");
+    position: absolute;
+    top: 0.1em;
+    right: 0;
+}
+
+.description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 17px;
+    display: inline-block;
+}
+
+.description:hover {
+    color: #F26522;
+}
+.copyrights {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
