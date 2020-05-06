@@ -52,7 +52,3 @@ if (Number.isFinite(parseInt(userName)) || Number.isFinite(parseFloat(userName))
         }
     }
 }
-
-
-
-console.log(!! '');
