@@ -1,10 +1,4 @@
-// MAIN ASSIGNMENT
-
-
-
-
-
-/* ADDITIONAL ASSIGNMENT
+/* ADDITIONAL TASK
 
 let lowerLimit = Number(prompt('Введите нижний придел промежутка','Меньшее число'));
 let upperLimit = Number(prompt('Введите верхний предел промежутка', 'Большее число'));
@@ -14,7 +8,7 @@ let rejectionFlag = 0;
 while (lowerLimit >= upperLimit || (!lowerLimit && !upperLimit || Number.isNaN(lowerLimit) || Number.isNaN(upperLimit))){
     lowerLimit = Number(prompt('Нарушена логика промежутка!\nНижний предел промежутка должен быть меньшим числом\nВведите нижний предел промежутка','Меньшее число'));
     upperLimit = Number(prompt('Нарушена логика промежутка!\nВерхний предел промежутка должен быть большим числом\nВведите верхний предел промежутка', 'Большее число'));
-    if (Number.isNaN(lowerLimit) || Number.isNaN(upperLimit) || (!lowerLimit && ! upperLimit)) {
+    if (Number.isNaN(lowerLimit) || Number.isNaN(upperLimit) || (!lowerLimit && !upperLimit)) {
         rejectionFlag++;
         break;
     }
@@ -39,6 +33,8 @@ if (rejectionFlag) {
 };
 
  */
+
+
 
 
 
