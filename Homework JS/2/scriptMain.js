@@ -1,4 +1,5 @@
 /* MAIN TASK
+
 let userDefinedLimit = Number(prompt('Введите предел промежутка', 'Целое число'));
 
 let rejectionFlag = 0;
@@ -10,13 +11,12 @@ while (!Number.isInteger(userDefinedLimit) || Number.isNaN(userDefinedLimit) || 
     }
 }
 
-let numbersCounter = 0;
-let lowerLimit = 0;
-let upperLimit = 0;
-
 if (rejectionFlag) {
     alert('Ну Вы подумайте и возвращайтесь :)');
 } else {
+    let numbersCounter = 0;
+    let lowerLimit = 0;
+    let upperLimit = 0;
     if (userDefinedLimit < 0) {
         lowerLimit = userDefinedLimit
     } else {
